@@ -1,0 +1,66 @@
+/* Customize the keypad */
+.keypad
+{
+flex:1.3;
+background - color:
+#272727;			/* Change background color */
+padding:20 px;
+display:flex;
+color:
+#fff;				/* Change text color to white */
+}
+
+/* Keypad button styles */
+.keypad p
+{
+line - height:2 rem;
+font - size:2 rem;		/* Increase font size */
+display:flex;
+justify - content:center;
+align - items:center;
+margin:0;
+transition:500 ms;
+user - select:none;
+cursor:pointer;		/* Add pointer cursor on hover */
+}
+
+/* Keypad button hover effect */
+.keypad p:hover
+{
+background - color:
+#3b5fb2;			/* Change background color on hover */
+}
+
+/* Customize the keys section */
+.keys
+{
+flex:3;
+display:flex;
+flex - wrap:wrap;
+}
+
+/* Keypad button styles */
+.keys p
+{
+width:33.33 %;
+height:25 %;
+background - color:
+#020D26;
+color:
+#fff;
+}
+
+/* Symbols section styles */
+.symbols
+{
+flex:1;
+}
+
+/* Symbol button styles */
+.symbols p
+{
+color:
+#3b5fb2;			
+width:100 %;
+height:20 %;
+}

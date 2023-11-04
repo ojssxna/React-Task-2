@@ -1,0 +1,37 @@
+/* Customize the header */
+.header {
+    flex: 1;
+    padding: 20px;
+    background-color: #3498db; /* Change background color */
+    overflow-y: hidden; /* Hide the scroll bar */
+    color: #fff; /* Change text color to white */
+}
+
+/* History section styles */
+.history p {
+    font-size: 1.2rem; /* Increase font size */
+    color: #555; /* Change text color */
+}
+
+/* Expression styles */
+.expression {
+    overflow-x: auto; /* Add horizontal scroll bar when needed */
+    width: 100%;
+}
+
+.expression p {
+    font-size: 1.2rem; /* Increase font size */
+    white-space: nowrap;
+    width: fit-content;
+    min-width: 100%;
+    font-weight: normal; /* Change font weight */
+    color: #333; /* Change text color */
+}
+
+/* Result section styles */
+.result {
+    font-weight: bold;
+    font-size: 2rem; /* Increase font size */
+    color: #27ae60; /* Change result text color */
+}
+
